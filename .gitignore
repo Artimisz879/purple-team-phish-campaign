@@ -1,0 +1,15 @@
+# .gitignore
+
+# never commit credentials
+*.env
+es_credentials*
+*.pem
+*.key
+secrets*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
